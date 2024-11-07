@@ -1,0 +1,11 @@
+C:\Users\Desenvolvedor\curso_api_netcore\src\Api.CrossCutting\bin\Debug\net8.0\CrossCutting.deps.json
+C:\Users\Desenvolvedor\curso_api_netcore\src\Api.CrossCutting\bin\Debug\net8.0\CrossCutting.dll
+C:\Users\Desenvolvedor\curso_api_netcore\src\Api.CrossCutting\bin\Debug\net8.0\CrossCutting.pdb
+C:\Users\Desenvolvedor\curso_api_netcore\src\Api.CrossCutting\obj\Debug\net8.0\CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Desenvolvedor\curso_api_netcore\src\Api.CrossCutting\obj\Debug\net8.0\CrossCutting.AssemblyInfoInputs.cache
+C:\Users\Desenvolvedor\curso_api_netcore\src\Api.CrossCutting\obj\Debug\net8.0\CrossCutting.AssemblyInfo.cs
+C:\Users\Desenvolvedor\curso_api_netcore\src\Api.CrossCutting\obj\Debug\net8.0\CrossCutting.csproj.CoreCompileInputs.cache
+C:\Users\Desenvolvedor\curso_api_netcore\src\Api.CrossCutting\obj\Debug\net8.0\CrossCutting.dll
+C:\Users\Desenvolvedor\curso_api_netcore\src\Api.CrossCutting\obj\Debug\net8.0\refint\CrossCutting.dll
+C:\Users\Desenvolvedor\curso_api_netcore\src\Api.CrossCutting\obj\Debug\net8.0\CrossCutting.pdb
+C:\Users\Desenvolvedor\curso_api_netcore\src\Api.CrossCutting\obj\Debug\net8.0\ref\CrossCutting.dll
