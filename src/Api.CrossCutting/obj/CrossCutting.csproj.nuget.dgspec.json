@@ -1,17 +1,169 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Desenvolvedor\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj": {}
+    "c:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.CrossCutting\\CrossCutting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Desenvolvedor\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj": {
+    "c:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.CrossCutting\\CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Desenvolvedor\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj",
+        "projectUniqueName": "c:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.CrossCutting\\CrossCutting.csproj",
         "projectName": "CrossCutting",
-        "projectPath": "C:\\Users\\Desenvolvedor\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj",
+        "projectPath": "c:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.CrossCutting\\CrossCutting.csproj",
         "packagesPath": "C:\\Users\\Desenvolvedor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Desenvolvedor\\curso_api_netcore\\src\\Api.CrossCutting\\obj\\",
+        "outputPath": "c:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Desenvolvedor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "c:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.Data\\Data.csproj": {
+                "projectPath": "c:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.Data\\Data.csproj"
+              },
+              "C:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.Domain\\Domain.csproj"
+              },
+              "C:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.Service\\Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.Data\\Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "c:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\Desenvolvedor\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Desenvolvedor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Desenvolvedor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Desenvolvedor\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,6 +178,71 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.Service\\Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.Service\\Service.csproj",
+        "projectName": "Service",
+        "projectPath": "C:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\Desenvolvedor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Desenvolvedor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "c:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.Data\\Data.csproj": {
+                "projectPath": "c:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.Data\\Data.csproj"
+              },
+              "C:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.Domain\\Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
