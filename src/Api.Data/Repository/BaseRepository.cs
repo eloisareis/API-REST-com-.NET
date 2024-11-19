@@ -25,7 +25,7 @@ public class BaseRepository<T> : IRepository<T> where T : BaseEntity
 
             _dataset.Remove(result);
             await _context.SaveChangesAsync();
-            return false;
+            return true;
         }
         catch (Exception)
         {

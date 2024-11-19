@@ -4205,11 +4205,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.Data\\Data.csproj",
+      "projectUniqueName": "c:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.Data\\Data.csproj",
+      "projectPath": "c:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.Data\\Data.csproj",
       "packagesPath": "C:\\Users\\Desenvolvedor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.Data\\obj\\",
+      "outputPath": "c:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Desenvolvedor\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "hRClcVT9QnI=",
+  "dgSpecHash": "zA/yXZZH7ow=",
   "success": true,
   "projectFilePath": "c:\\Users\\Desenvolvedor\\Documents\\prj_netcore\\primeiro_prj\\src\\Api.Application\\Apllication.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Desenvolvedor\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Desenvolvedor\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Desenvolvedor\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\Desenvolvedor\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.10\\microsoft.aspnetcore.openapi.8.0.10.nupkg.sha512",

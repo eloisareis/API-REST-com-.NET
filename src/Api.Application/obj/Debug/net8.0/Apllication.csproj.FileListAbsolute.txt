@@ -79,3 +79,4 @@ C:\Users\Desenvolvedor\Documents\prj_netcore\primeiro_prj\src\Api.Application\bi
 C:\Users\Desenvolvedor\Documents\prj_netcore\primeiro_prj\src\Api.Application\bin\Debug\net8.0\Domain.pdb
 C:\Users\Desenvolvedor\Documents\prj_netcore\primeiro_prj\src\Api.Application\bin\Debug\net8.0\Service.pdb
 C:\Users\Desenvolvedor\Documents\prj_netcore\primeiro_prj\src\Api.Application\bin\Debug\net8.0\Data.pdb
+C:\Users\Desenvolvedor\Documents\prj_netcore\primeiro_prj\src\Api.Application\bin\Debug\net8.0\AutoMapper.dll
